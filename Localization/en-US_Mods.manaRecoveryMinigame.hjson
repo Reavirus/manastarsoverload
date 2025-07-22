@@ -1,0 +1,33 @@
+Items: {
+	StrongMagicWeapon: {
+		Tooltip: At half HP or lower, reduces the mana cost by half
+		DisplayName: Strong Magic Weapon
+	}
+
+	WeakMagicWeapon: {
+		DisplayName: Weak Magic Weapon
+		Tooltip: At half HP or lower, reduces the mana cost by half
+	}
+
+	NewManaStarResourcePickup: {
+		DisplayName: Mana Star
+		Tooltip: Restores half mana
+	}
+
+	OverloadManaStarResourcePickup: {
+		DisplayName: Overload Mana Star
+		Tooltip: reduces mana cost to 0
+	}
+
+	ExampleMagicWeapon: {
+		Tooltip: ""
+		DisplayName: Example Magic Weapon
+	}
+}
+
+Buffs: {
+	ManaOverloadBuff: {
+		DisplayName: Mana Overload
+		Description: All mana cost is reduced to 0!
+	}
+}

@@ -1,0 +1,33 @@
+Mana Stars Overload
+
+This mod was made with the intention to make Magic playthroughs more interesting by making Mages less dependent on mana potions and the Mana Flower accessory in later stages of the game, relying more on a hit and move playstyle, since mana stars appear where the enemy got hit.
+
+Also the Celestial Magnet accessory (and upgrades) are more useful, if not as good as Mana Flower, so you can grab those Mana and Overload Stars from further!
+
+Mod was designed for single-player only playthroughs.
+
+This is my first mod, hope you all like it.
+
+
+Mana Stars and Mana Overload Star:
+
+--Mana Stars, Soul Cake and Sugar Plumb recover 50% of your max mana instead of 100 mana.
+
+--Mana Stars, Soul Cake and Sugar Plumb no longer drops from defeated enemies!
+
+--Now they have 10% chance of spawning when hitting enemies with magic weapons and projectiles.
+
+--There is also a 1% chance of spawning a Mana Overload Star, giving the Mana Overload Buff for 10 seconds.
+
+-- Magic weapons which have the speed of Fast or slower have a 15% chance of spawning Mana Stars and 2% of Mana Overload Stars.
+
+the Mana Overload Buff:
+
+--Mana Overload buff reduces the cost of all mana to 0.
+
+Mana Potions Change:
+
+--The Mana Sickness debuff no longer reduces the player's magic damage, instead it prevents from consuming Mana Potions for 1 minute (just like Potion Sickness for Health items).
+
+--Mana Potions no longer gives you mana, however they do give you the Mana Overload Buff, better potions give the buff for longer time.
+and your mana regeneration does work when the buff is active.
