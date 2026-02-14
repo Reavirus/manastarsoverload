@@ -21,8 +21,8 @@ namespace manaRecoveryMinigame.Content.NPCs
             // Get the weapon that shot the projectile
             Item sourceItem = player.inventory[player.selectedItem];
 
-            // Make it so weapons that are fast or slower have 15% chance of spawning mana stars and 2% of overload stars
-            if (sourceItem.useTime >= 21)
+            // Make it so weapons that are average useTime or slower have 15% chance of spawning mana stars and 2% of overload stars
+            if (sourceItem.useTime >= 26)
             {
                 dropChanceOverloadStar = 0.02f;
                 dropChanceManaStar = 0.15f;
@@ -69,7 +69,7 @@ namespace manaRecoveryMinigame.Content.NPCs
             Item sourceItem = player.inventory[player.selectedItem];
 
             // Make it so weapons that are fast or slower have 15% chance of spawning mana stars and 2% of overload stars
-            if (sourceItem.useTime >= 21)
+            if (sourceItem.useTime >= 26)
             {
                 dropChanceOverloadStar = 0.02f;
                 dropChanceManaStar = 0.15f;

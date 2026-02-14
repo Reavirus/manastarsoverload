@@ -1,0 +1,11 @@
+obj/manaRecoveryMinigame.csproj.nuget.dgspec.json
+obj/manaRecoveryMinigame.csproj.nuget.g.props
+obj/manaRecoveryMinigame.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+obj/Debug/net8.0/manaRecoveryMinigame.AssemblyInfo.cs
+obj/Debug/net8.0/manaRecoveryMinigame.AssemblyInfoInputs.cache
+obj/Debug/net8.0/manaRecoveryMinigame.assets.cache
+obj/Debug/net8.0/manaRecoveryMinigame.csproj.AssemblyReference.cache
+obj/Debug/net8.0/manaRecoveryMinigame.GeneratedMSBuildEditorConfig.editorconfig

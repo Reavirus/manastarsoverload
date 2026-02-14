@@ -3,7 +3,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using manaRecoveryMinigame.Content.Buffs;
-using manaRecoveryMinigame.Common.Player;
+using manaRecoveryMinigame.Common.Players;
 
 namespace manaRecoveryMinigame.Content.Items.Miscellaneous
 {

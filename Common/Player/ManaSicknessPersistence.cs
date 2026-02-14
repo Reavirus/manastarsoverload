@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.ModLoader.IO;
 
-namespace manaRecoveryMinigame.Common.Player
+namespace manaRecoveryMinigame.Common.Players
 {
     //Keeps Mana Sickness even if player logout and enters the world
     public class ManaSicknessPersistence : ModPlayer

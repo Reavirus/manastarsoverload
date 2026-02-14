@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace manaRecoveryMinigame.Common.Player
+namespace manaRecoveryMinigame.Common.Players
 {
 
     public class ManaMagnetChange : ModPlayer

@@ -1,5 +1,5 @@
 using System;
-using manaRecoveryMinigame.Common.Player;
+using manaRecoveryMinigame.Common.Players;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ID;

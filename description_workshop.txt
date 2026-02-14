@@ -37,3 +37,11 @@ Update v1.1 changelog:
 -- fixed animation from mana stars and overload stars (thank you to Thanatos for helping out).
 
 -- Now weapons which are the usetime of Fast or slower (fast, average, slow, very slow and snail) will have 15% chance of spawning mana stars and 2% of overload stars.
+
+Update v1.2 changelog:
+
+-- fixed a bug where all mana potions were not able to be used after consuming it manually, by quick mana shortcut or a mana flower (thank you for TheLoginatoR for pointing out!)
+
+-- Drinking mana potions should show the restored amount above the character correctly now (just like health potions show in green, mana shows in blue).
+
+-- Adjusted so weapons that are of speed of average and slower have the boosted drop rates of mana stars and mana overload stars (15% and 2% respectively). Now Fast weapons have the normal drop rates of mana stars and mana overload stars(10% and 1% respectively).

@@ -13,13 +13,13 @@ Mana Stars and Mana Overload Star:
 
 --Mana Stars, Soul Cake and Sugar Plumb recover 50% of your max mana instead of 100 mana.
 
---Mana Stars, Soul Cake and Sugar Plumb no longer drops from defeated enemies!
+--Mana Stars, Soul Cake and Sugar Plumb no longer drops from defeated enemies or Star statues (activated somehow by a wire)!
 
 --Now they have 10% chance of spawning when hitting enemies with magic weapons and projectiles.
 
 --There is also a 1% chance of spawning a Mana Overload Star, giving the Mana Overload Buff for 10 seconds.
 
--- Magic weapons which have the speed of Fast or slower have a 15% chance of spawning Mana Stars and 2% of Mana Overload Stars.
+-- Magic weapons which have the speed of Average or slower have a 15% chance of spawning Mana Stars and 2% of Mana Overload Stars.
 
 the Mana Overload Buff:
 

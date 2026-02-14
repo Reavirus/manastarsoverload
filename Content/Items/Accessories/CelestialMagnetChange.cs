@@ -1,4 +1,4 @@
-using manaRecoveryMinigame.Common.Player;
+using manaRecoveryMinigame.Common.Players;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
