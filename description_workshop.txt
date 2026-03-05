@@ -1,6 +1,6 @@
 Mana Stars Overload
 
-This mod was made with the intention to make Magic playthroughs more interesting by making Mages less dependent on mana potions and the Mana Flower accessory in later stages of the game, relying more on a hit and move playstyle, since mana stars appear where the enemy got hit.
+This mod was made with the intention to make Magic playthroughs more interesting by making Mages less dependent on mana potions and the Mana Flower accessory in later stages of the game, promoting a hit and move playstyle, rewarding agressive play and hitting attacks since mana stars appear where the enemy got hit.
 
 Also the Celestial Magnet accessory (and upgrades) are more useful, if not as good as Mana Flower, so you can grab those Mana and Overload Stars from further!
 
@@ -11,13 +11,13 @@ This is my first mod, hope you all like it.
 
 Mana Stars and Mana Overload Star:
 
---Mana Stars, Soul Cake and Sugar Plumb recover 50% of your max mana instead of 100 mana.
+--Mana Stars, Soul Cake and Sugar Plumb recover 50% of your max mana instead of 100 mana (the % value can be edited in the configs if you wish).
 
 --Mana Stars, Soul Cake and Sugar Plumb no longer drops from defeated enemies!
 
 --Now they have 10% chance of spawning when hitting enemies with magic weapons and projectiles.
 
---There is also a 1% chance of spawning a Mana Overload Star, giving the Mana Overload Buff for 10 seconds.
+--There is also a 1% chance of spawning a Mana Overload Star, giving the Mana Overload Buff for 10 seconds (you can toggle on or off if you want mana overload stars).
 
 -- Magic weapons which have the speed of Fast or slower have a 15% chance of spawning Mana Stars and 2% of Mana Overload Stars.
 
@@ -40,8 +40,12 @@ Update v1.1 changelog:
 
 Update v1.2 changelog:
 
--- fixed a bug where all mana potions were not able to be used after consuming it manually, by quick mana shortcut or a mana flower (thank you for TheLoginatoR for pointing out!)
+-- fixed a bug where all mana potions were not able to be used after consuming it manually, by quick mana shortcut or a mana flower accessory (thank you to TheLoginatoR for pointing out!).
 
 -- Drinking mana potions should show the restored amount above the character correctly now (just like health potions show in green, mana shows in blue).
 
 -- Adjusted so weapons that are of speed of average and slower have the boosted drop rates of mana stars and mana overload stars (15% and 2% respectively). Now Fast weapons have the normal drop rates of mana stars and mana overload stars(10% and 1% respectively).
+
+Update v1.2.2
+
+-- You can now edit the percentage amount of mana that Mana Stars can restore in the mod configuration (Setting > Mod Configurations > Mana Stars Overload) and you can also disable or enable overload mana stars (but not the debuff, you still have it on potions for example).

@@ -31,3 +31,24 @@ Buffs: {
 		Description: All mana cost is reduced to 0!
 	}
 }
+
+Configs: {
+	ManaRecoveryConfig: {
+		DisplayName: Mana Recovery Config
+
+		ManaRestorePercentage: {
+			Label: Mana Restore Percentage
+			Tooltip: ""
+		}
+
+		ManaRestorePercentageeee: {
+			Label: Mana Restore Percentageeee
+			Tooltip: ""
+		}
+
+		EnableOverloadStars: {
+			Label: Enable Overload Stars
+			Tooltip: ""
+		}
+	}
+}

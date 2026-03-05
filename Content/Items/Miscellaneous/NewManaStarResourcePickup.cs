@@ -50,8 +50,11 @@ namespace manaRecoveryMinigame.Content.Items.Miscellaneous
 
 		public override bool OnPickup(Player player)
 		{
-			// Calculate 50% of max mana
-			int healAmount = (int)(player.statManaMax2 * 0.5f);
+			// Get the config instance
+			var config = ModContent.GetInstance<ManaRecoveryConfig>();
+
+			// Calculate mana restoration based on config percentage
+			int healAmount = (int)(player.statManaMax2 * (config.ManaRestorePercentage / 100f));
 
 			// Heal the player's mana
 			player.statMana = Math.Min(player.statMana + healAmount, player.statManaMax2);

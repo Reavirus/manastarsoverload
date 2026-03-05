@@ -15,6 +15,8 @@ namespace manaRecoveryMinigame.Content.NPCs
             if (npc.type == NPCID.TargetDummy)
                 return;
 
+            var config = ModContent.GetInstance<ManaRecoveryConfig>();
+
             float dropChanceManaStar = 0.1f;
             float dropChanceOverloadStar = 0.01f;
 
@@ -40,7 +42,7 @@ namespace manaRecoveryMinigame.Content.NPCs
                 Item.NewItem(npc.GetSource_OnHit(player), randomPosition, ModContent.ItemType<NewManaStarResourcePickup>());
             }
 
-            if (item.DamageType == DamageClass.Magic && Main.rand.NextFloat() < dropChanceOverloadStar)
+            if (item.DamageType == DamageClass.Magic && Main.rand.NextFloat() < dropChanceOverloadStar && config.EnableOverloadStars)
             {
                 // Random position within a radius around the enemy
                 Vector2 randomPosition = npc.Center + new Vector2(
@@ -58,6 +60,8 @@ namespace manaRecoveryMinigame.Content.NPCs
             // Skip if the NPC is a Target Dummy
             if (npc.type == NPCID.TargetDummy)
                 return;
+
+            var config = ModContent.GetInstance<ManaRecoveryConfig>();
 
             float dropChanceManaStar = 0.1f;
             float dropChanceOverloadStar = 0.01f;
@@ -87,8 +91,7 @@ namespace manaRecoveryMinigame.Content.NPCs
                 Item.NewItem(npc.GetSource_OnHit(projectile), randomPosition, ModContent.ItemType<NewManaStarResourcePickup>());
             }
 
-            if (projectile.DamageType == DamageClass.Magic && Main.rand.NextFloat() < dropChanceOverloadStar
-            )
+            if (projectile.DamageType == DamageClass.Magic && Main.rand.NextFloat() < dropChanceOverloadStar && config.EnableOverloadStars)
             {
                 // Random position within a radius around the enemy
                 Vector2 randomPosition = npc.Center + new Vector2(
